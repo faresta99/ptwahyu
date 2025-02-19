@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Animasi transisi untuk dark mode */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
