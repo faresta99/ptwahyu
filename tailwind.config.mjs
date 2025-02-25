@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  darkMode: 'class', // Pastikan dark mode menggunakan class
+const config = {
+  darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,11 +8,19 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["var(--font-poppins)", "sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        satu: "#0A192F", //bg untuk gelap sekali
+        dua: "#1C2A40", //background untuk agak terang
+        tiga: "#F8F8F8", //text
+        empat: "#00D4FF", // button dan hover
+        lima: "#FCFCFC ",
       },
     },
   },
   plugins: [],
 };
+
+export default config;
