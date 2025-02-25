@@ -8,7 +8,7 @@ const Hero = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <div className="bg-satu text-white md:min-h-screen md:px-[49px] py-[34px] p-2 transition-all duration-300 overflow-hidden">
+    <div className="bg-satu text-white py-[20px] min-h-screen md:px-[49px] md:py-[34px] p-2 transition-all duration-300 overflow-hidden">
       {/* navbar */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -119,7 +119,7 @@ const Hero = () => {
         transition={{ duration: 1, delay: 1 }}
         className="md:flex md:justify-between md:items-center md:px-10 mt-8">
         {/* left */}
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left mt-5 md:mt-0">
           <h1 className="font-semibold md:font-bold md:text-[25px] mb-[10px]">
             Hy I’m Faresta
           </h1>
