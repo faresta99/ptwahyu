@@ -8,7 +8,7 @@ const Hero = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <div className="bg-satu text-white min-h-screen md:px-[49px] md:py-[34px] p-2 transition-all duration-300 overflow-hidden">
+    <div className="bg-satu text-white md:min-h-screen md:px-[49px] md:py-[34px] p-2 transition-all duration-300 overflow-hidden">
       {/* navbar */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}

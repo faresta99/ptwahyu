@@ -13,21 +13,21 @@ const Project = () => {
     },
     {
       id: 2,
-      title: "Project One",
+      title: "PT.SFI",
       image: "/sfi.png",
       description:
         "This website is made using React JS and Tailwind CSS, uploaded to GitHub and hosted using Vercel",
     },
     {
       id: 3,
-      title: "Project Two",
+      title: "Portfolio Ndu",
       image: "/ndu.png",
       description:
         "This website is made using React JS and Tailwind CSS, uploaded to GitHub and hosted using Vercel",
     },
     {
       id: 4,
-      title: "Project Three",
+      title: "Cs Shoop",
       image: "/cs.png",
       description:
         "This website is made using React JS and Tailwind CSS, uploaded to GitHub and hosted using Vercel",
